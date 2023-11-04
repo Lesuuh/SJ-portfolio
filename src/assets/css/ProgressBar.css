@@ -1,0 +1,30 @@
+.progress-bar {
+  width: 40%;
+  height: 10px;
+  position: relative;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-block: 20px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.progress {
+  height: 100%;
+  background-color: #1f1f1f;
+  line-height: 30px;
+}
+
+.progress-bar h4 {
+  position: absolute;
+  top: -30px;
+}
+
+.progress-bar p {
+  position: absolute;
+  right: -40px;
+  font-weight: 600;
+  /* margin-left: 10px; */
+}

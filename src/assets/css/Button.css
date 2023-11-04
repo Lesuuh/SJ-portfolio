@@ -1,0 +1,39 @@
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: var(--White, #fff);
+  background: var(--Dark, #1f1f1f);
+}
+
+.btn--secondary {
+  color: #1f1f1f;
+  background: #fff;
+  border: 1px solid #1f1f1f;
+}
+
+.btn--large {
+  display: flex;
+  padding: 12px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+.btn--medium {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}

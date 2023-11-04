@@ -1,0 +1,23 @@
+.core{
+    /* margin-top: 600px; */
+    width: 100%;
+}
+
+.core h1{
+    margin-bottom: 20px;
+}
+.core-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 188px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0px auto 20px;
+  }
