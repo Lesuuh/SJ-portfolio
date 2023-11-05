@@ -1,0 +1,30 @@
+.testimonial {
+  width: 100%;
+  background: #ffd4d0;
+}
+
+.testimonial-container {
+  max-width: 1100px;
+  height: 414px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 124px 64px 124px;
+}
+
+.test-wrapper {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-item {
+  flex: 0 0 100%; /* Each item occupies the full width of the container */
+  display: none;
+  transition: transform 0.5s ease;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.testimonial-item.active {
+  display: flex;
+}

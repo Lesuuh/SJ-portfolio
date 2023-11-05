@@ -6,6 +6,7 @@ import { About } from "./components/About";
 import { Services } from "./components/Services";
 import { Portfolio } from "./components/Portfolio";
 import { Core } from "./components/Core";
+import { Testimonial } from "./components/Testimonial";
 
 const App = () => {
   return (
@@ -16,8 +17,8 @@ const App = () => {
         <About />
         <Services />
         <Portfolio />
-
         <Core />
+        <Testimonial/>
         <Switch>
           <Route path="/" exact />
         </Switch>
