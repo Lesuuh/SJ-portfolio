@@ -28,3 +28,10 @@
   font-weight: 600;
   /* margin-left: 10px; */
 }
+
+
+@media screen and (max-width: 768px) {
+  .progress-bar {
+    width: 90%;
+  }
+}

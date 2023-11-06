@@ -7,6 +7,9 @@ import { Services } from "./components/Services";
 import { Portfolio } from "./components/Portfolio";
 import { Core } from "./components/Core";
 import { Testimonial } from "./components/Testimonial";
+import { Design } from "./components/Design";
+import { Footer } from "./components/Footer";
+import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
         <Portfolio />
         <Core />
         <Testimonial/>
+        <Design/>
+        <Contact />
+        <Footer/>
         <Switch>
           <Route path="/" exact />
         </Switch>

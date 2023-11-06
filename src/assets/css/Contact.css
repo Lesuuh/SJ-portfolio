@@ -1,0 +1,98 @@
+.contact {
+  width: 100%;
+  position: relative;
+  background: #ffd4d0;
+  /* z-index: -1000; */
+}
+
+.contact-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 124px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.left-wrapper {
+  display: flex;
+  flex: 0 0 45%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+.right-wrapper{
+  flex: 0 0 45%;
+}
+.contact-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-detail .number,
+.email,
+.location {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 10px;
+}
+.contact-background {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+
+.social-icons .sm-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #fff;
+  position: relative;
+}
+
+.social-icons .sm-icon .fa-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #FC3314; */
+  color: #1f1f1f;
+  transition: 0.5s ease;
+}
+
+.social-icons .sm-icon:hover .fa-icon {
+  color: #fc3314;
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width:1038px) {
+  .contact-container{
+    padding: 64px;
+  }
+  
+}
+
+@media screen and (max-width:968px) {
+  .contact-container{
+    flex-wrap: wrap;
+  }
+  .left-wrapper{
+    flex: 0 0 100%;
+  }
+  .right-wrapper{
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width:512px) {
+  .contact-container{
+    padding: 32px;
+  }
+  
+}

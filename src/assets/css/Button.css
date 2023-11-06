@@ -1,17 +1,25 @@
 .btn {
   text-decoration: none;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 .btn--primary {
   color: var(--White, #fff);
   background: var(--Dark, #1f1f1f);
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .btn--secondary {
   color: #1f1f1f;
   background: #fff;
   border: 1px solid #1f1f1f;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .btn--large {

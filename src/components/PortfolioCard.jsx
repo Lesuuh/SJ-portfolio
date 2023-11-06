@@ -5,12 +5,12 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export const PortfolioCard = ({ img, title, subtitle, link}) => {
   return (
-    <Link to={link} className="card-link">
+    <Link to={link} className="portfolio-card-link">
       <div className="portfolio-card">
         <div>
           <img src={img} alt="card-img" />
         </div>
-        <div>
+        <div className="portfolio-card-body">
           <h2 className="title">{title}</h2>
           <p className="subtitle">{subtitle}</p>
           <div className="icon">
