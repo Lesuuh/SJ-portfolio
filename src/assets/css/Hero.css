@@ -5,6 +5,7 @@
 
 .hero-container {
   max-width: 1440px;
+  margin: 0 auto;
   padding: 0 124px;
   display: flex;
   flex-flow: row;
@@ -12,9 +13,7 @@
   align-items: center;
   padding-top: 32px;
 }
-.hero-wrapper-one,
-.hero-wrapper-two {
-}
+
 .hero-wrapper-one {
   display: flex;
   flex-flow: column nowrap;
