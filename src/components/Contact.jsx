@@ -7,7 +7,7 @@ import {
   faLocationPin,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 import { faDribbble, faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export const Contact = () => {

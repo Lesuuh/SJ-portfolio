@@ -1,7 +1,7 @@
 // import "../assets/css/Portfolio.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
 export const PortfolioCard = ({ img, title, subtitle, link}) => {
   return (

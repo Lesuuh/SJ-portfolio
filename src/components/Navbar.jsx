@@ -11,15 +11,15 @@ import { useEffect } from "react";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [button, setButton] = useState(true);
-  const [scroll, setScroll] = useState(false);
+  // const [scroll, setScroll] = useState(false);
 
-  useEffect(() => {
-    if (window.scrollY > 50) {
-      setScroll(true);
-    } else {
-      setScroll(false);
-    }
-  });
+  // useEffect(() => {
+  //   if (window.scrollY > 50) {
+  //     setScroll(true);
+  //   } else {
+  //     setScroll(false);
+  //   }
+  // });
 
   const menuClick = () => {
     setMenuOpen(!menuOpen);
