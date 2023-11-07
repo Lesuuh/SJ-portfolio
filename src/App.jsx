@@ -1,5 +1,5 @@
 import { Navbar } from "./components/Navbar";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
@@ -13,7 +13,7 @@ import { Contact } from "./components/Contact";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
         <Navbar />
         <Hero />
@@ -25,8 +25,11 @@ const App = () => {
         <Design />
         <Contact />
         <Footer />
+        <Routes>
+          <Route path="/" />
+        </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 };
 
