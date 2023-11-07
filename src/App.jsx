@@ -1,5 +1,5 @@
 import { Navbar } from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { Hero } from "./components/Hero";
 import { About } from "./components/About";
@@ -25,9 +25,9 @@ const App = () => {
         <Design />
         <Contact />
         <Footer />
-        <Routes>
+        <Switch>
           <Route path="/" />
-        </Routes>
+        </Switch>
       </div>
     </Router>
   );
