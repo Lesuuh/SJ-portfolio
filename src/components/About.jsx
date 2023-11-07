@@ -14,15 +14,15 @@ export const About = () => {
         </p>
         <div className="about-wrapper">
           <div className="wrapper-box">
-            <h3>502</h3>
+            <h4>502</h4>
             <p>Projects Done</p>
           </div>
           <div className="wrapper-box">
-            <h3>10+</h3>
+            <h4>10+</h4>
             <p>Years of Experience</p>
           </div>
           <div className="wrapper-box">
-            <h3>273+</h3>
+            <h4>273+</h4>
             <p>Clients Served</p>
           </div>
         </div>

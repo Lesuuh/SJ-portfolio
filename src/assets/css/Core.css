@@ -7,10 +7,10 @@
   margin-bottom: 20px;
 }
 .core-container {
-  max-width: 1100px;
+  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  padding: 90px 188px;
+  padding: 90px 124px;
 }
 
 .skills-container {
@@ -28,23 +28,26 @@
 
 @media screen and (max-width: 768px) {
   .skills-container {
-    padding: 32px 64px;
+    padding-inline: 64px;
   }
-
 
   .core-container {
     padding: 32px 62px;
     text-align: left;
   }
+
+  .core-container h1 {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 512px) {
   .core-container {
-    padding: 90px 32px;
+    padding: 32px 16px;
     text-align: left;
   }
   .skills-container {
-    padding: 32px 32px;
+    padding-inline: 16px;
     flex-flow: column;
   }
 }

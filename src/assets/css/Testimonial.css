@@ -8,7 +8,7 @@
   height: auto;
   margin: 0 auto;
   text-align: center;
-  padding: 90px 124px 64px 124px;
+  padding: 90px 124px;
 }
 
 .test-wrapper {
@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 512px) {
   .testimonial-container{
-    padding: 30px 32px;
+    padding: 30px 16px;
   }
   .text-box p {
     padding: 0 30px;
