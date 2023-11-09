@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/images/Logo.png";
-import halfBackground from "../assets/images/nav-background.png";
+// import halfBackground from "../assets/images/nav-background.png";
 import { Button } from "./Button";
 import "../assets/css/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -42,9 +42,9 @@ export const Navbar = () => {
   return (
     <>
       <nav className={`navbar ${scroll ? "scroll" : ""}`}>
-        <div className="halfbackground">
+        {/* <div className="halfbackground">
           <img src={halfBackground} alt="background" />
-        </div>
+        </div> */}
         <div className="nav-container">
           <div className="nav-logo">
             <Link className="nav-logo-link" to="/" onClick={handleClose}>

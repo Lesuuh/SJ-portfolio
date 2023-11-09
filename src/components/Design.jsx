@@ -7,21 +7,21 @@ export const Design = () => {
   const designData = [
     {
       id: 1,
-      img: "/src/assets/images/Image-7.png",
+      img: "images/Image-7.png",
       date: "August 15, 2023 / UX",
       title: "Typography Tips for Design Success",
       text: "Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.",
     },
     {
       id: 2,
-      img: "/src/assets/images/Image-8.png",
+      img: "images/Image-8.png",
       date: "September 15, 2023 / UX",
       title: "Color Psychology in UX",
       text: "Explore how color choices impact user emotions and decision-making in UX design.",
     },
     {
       id: 3,
-      img: "/src/assets/images/Image-9.png",
+      img: "images/Image-9.png",
       date: "November 5, 2023 / UX",
       title: "Boosting UX with Microinteractions",
       text: "Discover the power of microinteractions in enhancing user experience and engagement.",

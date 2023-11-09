@@ -6,42 +6,42 @@ export const Portfolio = () => {
   const cardData = [
     {
       id: 1,
-      img: "/src/assets/images/Image.png",
+      img: "images/Image.png",
       title: "Educational Platform",
       subtitle: "Web Design / Usability Testing",
       link: "educationalplatform"
     },
     {
       id: 2,
-      img: "/src/assets/images/Image-1.png",
+      img: "images/Image-1.png",
       title: "Travel Journal",
       subtitle: "UX Research / App Design ",
       link: "traveljournal"
     },
     {
       id: 3,
-      img: "/src/assets/images/Image-2.png",
+      img: "images/Image-2.png",
       title: "Personal Page",
       subtitle: "Web Design",
       link: "personalpage"
     },
     {
       id: 4,
-      img: "/src/assets/images/Image-3.png",
+      img: "images/Image-3.png",
       title: "Furniture Mobile App",
       subtitle: "App Design",
       link: "furnituremobileapp"
     },
     {
       id: 5,
-      img: "/src/assets/images/Image-4.png",
+      img: "images/Image-4.png",
       title: "Coffe House Landing Page",
       subtitle: "Web Design / Usability Testing",
       link: "coffeehouse"
     },
     {
       id: 6,
-      img: "/src/assets/images/Image-5.png",
+      img: "images/Image-5.png",
       title: "Home Services Page",
       subtitle: "Web Design / Marketing",
       link: "homeservices"
